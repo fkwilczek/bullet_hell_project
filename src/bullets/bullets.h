@@ -4,8 +4,8 @@
 #include <iostream>
 
 extern sf::RenderWindow window;
-extern int okno_x,okno_y,okno_x2,okno_y2;
-class pocisk{
+extern int border_x,border_y,border_x2,border_y2;
+class bullet{
 protected:
     float szybkosc,srednica,x,y;
     sf::CircleShape pp;
@@ -16,7 +16,7 @@ public:
     virtual void rysuj();
 };
 
-class pocisk_prosty: public pocisk{
+class pocisk_prosty: public bullet{
 protected:
     float kat,akceleracja_x,akceleracja_y;
 public:
@@ -24,6 +24,6 @@ public:
     virtual void ruch();
 };
 
-extern std::list<pocisk*> pociski;
+extern std::list<bullet*> bullets;
 void stwoz_pocisk_prosty(float,float,float,float,float);
-void petla_pociskow();
+void bullets_loop();

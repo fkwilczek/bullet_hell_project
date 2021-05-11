@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/basic_bullet.cpp" "F:/pliki/moje programy 2/c++/bullet_hell_project/build/CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.obj"
+  "F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/bullets.cpp" "F:/pliki/moje programy 2/c++/bullet_hell_project/build/CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.obj"
+  "F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/create_bullets.cpp" "F:/pliki/moje programy 2/c++/bullet_hell_project/build/CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.obj"
   "F:/pliki/moje programy 2/c++/bullet_hell_project/src/main.cpp" "F:/pliki/moje programy 2/c++/bullet_hell_project/build/CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj"
-  "F:/pliki/moje programy 2/c++/bullet_hell_project/src/pociski/pocisk.cpp" "F:/pliki/moje programy 2/c++/bullet_hell_project/build/CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk.cpp.obj"
-  "F:/pliki/moje programy 2/c++/bullet_hell_project/src/pociski/pocisk_prosty.cpp" "F:/pliki/moje programy 2/c++/bullet_hell_project/build/CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk_prosty.cpp.obj"
-  "F:/pliki/moje programy 2/c++/bullet_hell_project/src/pociski/tworzenie_pociskow.cpp" "F:/pliki/moje programy 2/c++/bullet_hell_project/build/CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/tworzenie_pociskow.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -4,11 +4,11 @@
 #include <cstdlib>
 #include <time.h>
 #include <list>
-#include "pociski/pociski.h"
+#include "bullets/bullets.h"
 
 sf::RenderWindow window(sf::VideoMode(690, 900), "SFML works!", sf::Style::Default);
-int okno_x=0,okno_y=0,okno_x2=window.getSize().x,okno_y2=window.getSize().y;
-std::list<pocisk*> pociski;
+int border_x=0,border_y=0,border_x2=window.getSize().x,border_y2=window.getSize().y;
+std::list<bullet*> bullets;
 
 int main()
 {
@@ -25,7 +25,7 @@ int main()
         }}
         for(int i=0;i<10;i++)
             stwoz_pocisk_prosty(window.getSize().x/2,window.getSize().x/2,(rand()*361/RAND_MAX),rand()%10+1,5);
-        petla_pociskow();
+        bullets_loop();
         window.display();
         window.clear();
 

@@ -122,6 +122,87 @@ Release_bullet_hell_project_0.1.0/fast:
 	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/build
 .PHONY : Release_bullet_hell_project_0.1.0/fast
 
+src/bullets/basic_bullet.obj: src/bullets/basic_bullet.cpp.obj
+
+.PHONY : src/bullets/basic_bullet.obj
+
+# target to build an object file
+src/bullets/basic_bullet.cpp.obj:
+	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.obj
+.PHONY : src/bullets/basic_bullet.cpp.obj
+
+src/bullets/basic_bullet.i: src/bullets/basic_bullet.cpp.i
+
+.PHONY : src/bullets/basic_bullet.i
+
+# target to preprocess a source file
+src/bullets/basic_bullet.cpp.i:
+	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.i
+.PHONY : src/bullets/basic_bullet.cpp.i
+
+src/bullets/basic_bullet.s: src/bullets/basic_bullet.cpp.s
+
+.PHONY : src/bullets/basic_bullet.s
+
+# target to generate assembly for a file
+src/bullets/basic_bullet.cpp.s:
+	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.s
+.PHONY : src/bullets/basic_bullet.cpp.s
+
+src/bullets/bullets.obj: src/bullets/bullets.cpp.obj
+
+.PHONY : src/bullets/bullets.obj
+
+# target to build an object file
+src/bullets/bullets.cpp.obj:
+	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.obj
+.PHONY : src/bullets/bullets.cpp.obj
+
+src/bullets/bullets.i: src/bullets/bullets.cpp.i
+
+.PHONY : src/bullets/bullets.i
+
+# target to preprocess a source file
+src/bullets/bullets.cpp.i:
+	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.i
+.PHONY : src/bullets/bullets.cpp.i
+
+src/bullets/bullets.s: src/bullets/bullets.cpp.s
+
+.PHONY : src/bullets/bullets.s
+
+# target to generate assembly for a file
+src/bullets/bullets.cpp.s:
+	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.s
+.PHONY : src/bullets/bullets.cpp.s
+
+src/bullets/create_bullets.obj: src/bullets/create_bullets.cpp.obj
+
+.PHONY : src/bullets/create_bullets.obj
+
+# target to build an object file
+src/bullets/create_bullets.cpp.obj:
+	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.obj
+.PHONY : src/bullets/create_bullets.cpp.obj
+
+src/bullets/create_bullets.i: src/bullets/create_bullets.cpp.i
+
+.PHONY : src/bullets/create_bullets.i
+
+# target to preprocess a source file
+src/bullets/create_bullets.cpp.i:
+	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.i
+.PHONY : src/bullets/create_bullets.cpp.i
+
+src/bullets/create_bullets.s: src/bullets/create_bullets.cpp.s
+
+.PHONY : src/bullets/create_bullets.s
+
+# target to generate assembly for a file
+src/bullets/create_bullets.cpp.s:
+	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.s
+.PHONY : src/bullets/create_bullets.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -149,87 +230,6 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/pociski/pocisk.obj: src/pociski/pocisk.cpp.obj
-
-.PHONY : src/pociski/pocisk.obj
-
-# target to build an object file
-src/pociski/pocisk.cpp.obj:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk.cpp.obj
-.PHONY : src/pociski/pocisk.cpp.obj
-
-src/pociski/pocisk.i: src/pociski/pocisk.cpp.i
-
-.PHONY : src/pociski/pocisk.i
-
-# target to preprocess a source file
-src/pociski/pocisk.cpp.i:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk.cpp.i
-.PHONY : src/pociski/pocisk.cpp.i
-
-src/pociski/pocisk.s: src/pociski/pocisk.cpp.s
-
-.PHONY : src/pociski/pocisk.s
-
-# target to generate assembly for a file
-src/pociski/pocisk.cpp.s:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk.cpp.s
-.PHONY : src/pociski/pocisk.cpp.s
-
-src/pociski/pocisk_prosty.obj: src/pociski/pocisk_prosty.cpp.obj
-
-.PHONY : src/pociski/pocisk_prosty.obj
-
-# target to build an object file
-src/pociski/pocisk_prosty.cpp.obj:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk_prosty.cpp.obj
-.PHONY : src/pociski/pocisk_prosty.cpp.obj
-
-src/pociski/pocisk_prosty.i: src/pociski/pocisk_prosty.cpp.i
-
-.PHONY : src/pociski/pocisk_prosty.i
-
-# target to preprocess a source file
-src/pociski/pocisk_prosty.cpp.i:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk_prosty.cpp.i
-.PHONY : src/pociski/pocisk_prosty.cpp.i
-
-src/pociski/pocisk_prosty.s: src/pociski/pocisk_prosty.cpp.s
-
-.PHONY : src/pociski/pocisk_prosty.s
-
-# target to generate assembly for a file
-src/pociski/pocisk_prosty.cpp.s:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk_prosty.cpp.s
-.PHONY : src/pociski/pocisk_prosty.cpp.s
-
-src/pociski/tworzenie_pociskow.obj: src/pociski/tworzenie_pociskow.cpp.obj
-
-.PHONY : src/pociski/tworzenie_pociskow.obj
-
-# target to build an object file
-src/pociski/tworzenie_pociskow.cpp.obj:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/tworzenie_pociskow.cpp.obj
-.PHONY : src/pociski/tworzenie_pociskow.cpp.obj
-
-src/pociski/tworzenie_pociskow.i: src/pociski/tworzenie_pociskow.cpp.i
-
-.PHONY : src/pociski/tworzenie_pociskow.i
-
-# target to preprocess a source file
-src/pociski/tworzenie_pociskow.cpp.i:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/tworzenie_pociskow.cpp.i
-.PHONY : src/pociski/tworzenie_pociskow.cpp.i
-
-src/pociski/tworzenie_pociskow.s: src/pociski/tworzenie_pociskow.cpp.s
-
-.PHONY : src/pociski/tworzenie_pociskow.s
-
-# target to generate assembly for a file
-src/pociski/tworzenie_pociskow.cpp.s:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/tworzenie_pociskow.cpp.s
-.PHONY : src/pociski/tworzenie_pociskow.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -239,18 +239,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Release_bullet_hell_project_0.1.0
 	@echo ... edit_cache
+	@echo ... src/bullets/basic_bullet.obj
+	@echo ... src/bullets/basic_bullet.i
+	@echo ... src/bullets/basic_bullet.s
+	@echo ... src/bullets/bullets.obj
+	@echo ... src/bullets/bullets.i
+	@echo ... src/bullets/bullets.s
+	@echo ... src/bullets/create_bullets.obj
+	@echo ... src/bullets/create_bullets.i
+	@echo ... src/bullets/create_bullets.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/pociski/pocisk.obj
-	@echo ... src/pociski/pocisk.i
-	@echo ... src/pociski/pocisk.s
-	@echo ... src/pociski/pocisk_prosty.obj
-	@echo ... src/pociski/pocisk_prosty.i
-	@echo ... src/pociski/pocisk_prosty.s
-	@echo ... src/pociski/tworzenie_pociskow.obj
-	@echo ... src/pociski/tworzenie_pociskow.i
-	@echo ... src/pociski/tworzenie_pociskow.s
 .PHONY : help
 
 

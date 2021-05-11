@@ -56,10 +56,52 @@ include CMakeFiles/Release_bullet_hell_project_0.1.0.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Release_bullet_hell_project_0.1.0.dir/flags.make
 
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.obj: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/flags.make
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.obj: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.obj: ../src/bullets/basic_bullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.obj"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\bullets\basic_bullet.cpp.obj -c "F:\pliki\moje programy 2\c++\bullet_hell_project\src\bullets\basic_bullet.cpp"
+
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.i"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\pliki\moje programy 2\c++\bullet_hell_project\src\bullets\basic_bullet.cpp" > CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\bullets\basic_bullet.cpp.i
+
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.s"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\pliki\moje programy 2\c++\bullet_hell_project\src\bullets\basic_bullet.cpp" -o CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\bullets\basic_bullet.cpp.s
+
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.obj: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/flags.make
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.obj: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.obj: ../src/bullets/bullets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.obj"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\bullets\bullets.cpp.obj -c "F:\pliki\moje programy 2\c++\bullet_hell_project\src\bullets\bullets.cpp"
+
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.i"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\pliki\moje programy 2\c++\bullet_hell_project\src\bullets\bullets.cpp" > CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\bullets\bullets.cpp.i
+
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.s"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\pliki\moje programy 2\c++\bullet_hell_project\src\bullets\bullets.cpp" -o CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\bullets\bullets.cpp.s
+
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.obj: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/flags.make
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.obj: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.obj: ../src/bullets/create_bullets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.obj"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\bullets\create_bullets.cpp.obj -c "F:\pliki\moje programy 2\c++\bullet_hell_project\src\bullets\create_bullets.cpp"
+
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.i"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\pliki\moje programy 2\c++\bullet_hell_project\src\bullets\create_bullets.cpp" > CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\bullets\create_bullets.cpp.i
+
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.s"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\pliki\moje programy 2\c++\bullet_hell_project\src\bullets\create_bullets.cpp" -o CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\bullets\create_bullets.cpp.s
+
 CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/flags.make
 CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp
 CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj"
 	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\main.cpp.obj -c "F:\pliki\moje programy 2\c++\bullet_hell_project\src\main.cpp"
 
 CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.i: cmake_force
@@ -70,62 +112,20 @@ CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.s"
 	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\pliki\moje programy 2\c++\bullet_hell_project\src\main.cpp" -o CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\main.cpp.s
 
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk.cpp.obj: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/flags.make
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk.cpp.obj: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk.cpp.obj: ../src/pociski/pocisk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk.cpp.obj"
-	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\pociski\pocisk.cpp.obj -c "F:\pliki\moje programy 2\c++\bullet_hell_project\src\pociski\pocisk.cpp"
-
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk.cpp.i"
-	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\pliki\moje programy 2\c++\bullet_hell_project\src\pociski\pocisk.cpp" > CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\pociski\pocisk.cpp.i
-
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk.cpp.s"
-	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\pliki\moje programy 2\c++\bullet_hell_project\src\pociski\pocisk.cpp" -o CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\pociski\pocisk.cpp.s
-
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk_prosty.cpp.obj: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/flags.make
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk_prosty.cpp.obj: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk_prosty.cpp.obj: ../src/pociski/pocisk_prosty.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk_prosty.cpp.obj"
-	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\pociski\pocisk_prosty.cpp.obj -c "F:\pliki\moje programy 2\c++\bullet_hell_project\src\pociski\pocisk_prosty.cpp"
-
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk_prosty.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk_prosty.cpp.i"
-	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\pliki\moje programy 2\c++\bullet_hell_project\src\pociski\pocisk_prosty.cpp" > CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\pociski\pocisk_prosty.cpp.i
-
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk_prosty.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk_prosty.cpp.s"
-	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\pliki\moje programy 2\c++\bullet_hell_project\src\pociski\pocisk_prosty.cpp" -o CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\pociski\pocisk_prosty.cpp.s
-
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/tworzenie_pociskow.cpp.obj: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/flags.make
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/tworzenie_pociskow.cpp.obj: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/tworzenie_pociskow.cpp.obj: ../src/pociski/tworzenie_pociskow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/tworzenie_pociskow.cpp.obj"
-	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\pociski\tworzenie_pociskow.cpp.obj -c "F:\pliki\moje programy 2\c++\bullet_hell_project\src\pociski\tworzenie_pociskow.cpp"
-
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/tworzenie_pociskow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/tworzenie_pociskow.cpp.i"
-	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\pliki\moje programy 2\c++\bullet_hell_project\src\pociski\tworzenie_pociskow.cpp" > CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\pociski\tworzenie_pociskow.cpp.i
-
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/tworzenie_pociskow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/tworzenie_pociskow.cpp.s"
-	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\pliki\moje programy 2\c++\bullet_hell_project\src\pociski\tworzenie_pociskow.cpp" -o CMakeFiles\Release_bullet_hell_project_0.1.0.dir\src\pociski\tworzenie_pociskow.cpp.s
-
 # Object files for target Release_bullet_hell_project_0.1.0
 Release_bullet_hell_project_0_1_0_OBJECTS = \
-"CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj" \
-"CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk.cpp.obj" \
-"CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk_prosty.cpp.obj" \
-"CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/tworzenie_pociskow.cpp.obj"
+"CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.obj" \
+"CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.obj" \
+"CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.obj" \
+"CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj"
 
 # External object files for target Release_bullet_hell_project_0.1.0
 Release_bullet_hell_project_0_1_0_EXTERNAL_OBJECTS =
 
+../bin/Release_bullet_hell_project_0.1.0.exe: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.obj
+../bin/Release_bullet_hell_project_0.1.0.exe: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.obj
+../bin/Release_bullet_hell_project_0.1.0.exe: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.obj
 ../bin/Release_bullet_hell_project_0.1.0.exe: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj
-../bin/Release_bullet_hell_project_0.1.0.exe: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk.cpp.obj
-../bin/Release_bullet_hell_project_0.1.0.exe: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/pocisk_prosty.cpp.obj
-../bin/Release_bullet_hell_project_0.1.0.exe: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/pociski/tworzenie_pociskow.cpp.obj
 ../bin/Release_bullet_hell_project_0.1.0.exe: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/build.make
 ../bin/Release_bullet_hell_project_0.1.0.exe: ../libs/SFML-2.5.1/lib/libsfml-system-s.a
 ../bin/Release_bullet_hell_project_0.1.0.exe: ../libs/SFML-2.5.1/lib/libsfml-window-s.a

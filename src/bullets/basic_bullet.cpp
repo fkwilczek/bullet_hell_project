@@ -1,4 +1,4 @@
-#include "pociski.h"
+#include "bullets.h"
 
 pocisk_prosty::pocisk_prosty(float xx,float yy,float katt,float szybkoscc,float srednicaa){
     szybkosc=szybkoscc;
