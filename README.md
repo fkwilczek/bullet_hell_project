@@ -1,2 +1,2 @@
 # bullet_hell_project
-testing prototype to create simple bullet hell
+prototype to create simple bullet hell
