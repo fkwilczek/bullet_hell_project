@@ -20,7 +20,7 @@ class basic_bullet: public bullet{
 protected:
     float angle,acceleration_x,acceleration_y;
 public:
-    basic_bullet(float=0,float=0,float=0,float=1,float=1);
+    basic_bullet(float x,float y,float angle,float speed,float size);
     virtual void move();
 };
 
