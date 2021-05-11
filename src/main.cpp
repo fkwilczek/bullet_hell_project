@@ -1,10 +1,7 @@
 #include <SFML/Graphics.hpp>
-#include <math.h>
-#include <iostream>
-#include <cstdlib>
-#include <time.h>
 #include <list>
 #include "bullets/bullets.h"
+#include "functions.h"
 
 sf::RenderWindow window(sf::VideoMode(690, 900), "SFML works!", sf::Style::Default);
 int border_x=0,border_y=0,border_x2=window.getSize().x,border_y2=window.getSize().y;
@@ -13,8 +10,8 @@ std::list<bullet*> bullets;
 int main()
 {
     window.setFramerateLimit(60);
+    rand_init();
 
-    srand(time(NULL));
     while (window.isOpen()){
         sf::Event event;
         while (window.pollEvent(event)){
@@ -23,8 +20,9 @@ int main()
                     window.close();
                     break;
         }}
-        for(int i=0;i<10;i++)
-            create_basic_bullet(window.getSize().x/2,window.getSize().x/2,(rand()*361/RAND_MAX),rand()%10+1,5);
+        create_basic_bullet(border_x2/2,border_y2/2,rand_float(0,360),rand_int(1,5),rand_int(1,4));
+
+
         bullets_loop();
         window.display();
         window.clear();

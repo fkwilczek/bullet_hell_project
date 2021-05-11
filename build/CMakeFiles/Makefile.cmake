@@ -56,5 +56,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Release_bullet_hell_project_0.1.0.dir/DependInfo.cmake"
+  "CMakeFiles/bullet_hell_project_0.1.0.dir/DependInfo.cmake"
   )

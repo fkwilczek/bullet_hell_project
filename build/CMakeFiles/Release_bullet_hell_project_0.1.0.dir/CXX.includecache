@@ -698,19 +698,21 @@ F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/create_bullets.cpp
 bullets.h
 F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/bullets.h
 
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/main.cpp
-SFML/Graphics.hpp
--
-math.h
--
-iostream
--
+F:/pliki/moje programy 2/c++/bullet_hell_project/src/functions.h
 cstdlib
 -
 time.h
 -
+
+F:/pliki/moje programy 2/c++/bullet_hell_project/src/main.cpp
+SFML/Graphics.hpp
+-
 list
+-
+iostream
 -
 bullets/bullets.h
 F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/bullets.h
+functions.h
+F:/pliki/moje programy 2/c++/bullet_hell_project/src/functions.h
 

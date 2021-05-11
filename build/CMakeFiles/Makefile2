@@ -52,7 +52,7 @@ CMAKE_BINARY_DIR = "F:\pliki\moje programy 2\c++\bullet_hell_project\build"
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/all
+all: CMakeFiles/bullet_hell_project_0.1.0.dir/all
 
 .PHONY : all
 
@@ -62,36 +62,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/clean
+clean: CMakeFiles/bullet_hell_project_0.1.0.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Release_bullet_hell_project_0.1.0.dir
+# Target rules for target CMakeFiles/bullet_hell_project_0.1.0.dir
 
 # All Build rule for target.
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/all:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/depend
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" --progress-num=1,2,3,4,5 "Built target Release_bullet_hell_project_0.1.0"
-.PHONY : CMakeFiles/Release_bullet_hell_project_0.1.0.dir/all
+CMakeFiles/bullet_hell_project_0.1.0.dir/all:
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/depend
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" --progress-num=1,2,3,4,5 "Built target bullet_hell_project_0.1.0"
+.PHONY : CMakeFiles/bullet_hell_project_0.1.0.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/rule: cmake_check_build_system
+CMakeFiles/bullet_hell_project_0.1.0.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" 5
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Release_bullet_hell_project_0.1.0.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/bullet_hell_project_0.1.0.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" 0
-.PHONY : CMakeFiles/Release_bullet_hell_project_0.1.0.dir/rule
+.PHONY : CMakeFiles/bullet_hell_project_0.1.0.dir/rule
 
 # Convenience name for target.
-Release_bullet_hell_project_0.1.0: CMakeFiles/Release_bullet_hell_project_0.1.0.dir/rule
+bullet_hell_project_0.1.0: CMakeFiles/bullet_hell_project_0.1.0.dir/rule
 
-.PHONY : Release_bullet_hell_project_0.1.0
+.PHONY : bullet_hell_project_0.1.0
 
 # clean rule for target.
-CMakeFiles/Release_bullet_hell_project_0.1.0.dir/clean:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/clean
-.PHONY : CMakeFiles/Release_bullet_hell_project_0.1.0.dir/clean
+CMakeFiles/bullet_hell_project_0.1.0.dir/clean:
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/clean
+.PHONY : CMakeFiles/bullet_hell_project_0.1.0.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

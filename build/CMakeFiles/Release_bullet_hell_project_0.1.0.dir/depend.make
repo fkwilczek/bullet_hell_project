@@ -307,5 +307,6 @@ CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj: ../libs/SFML-
 CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj: ../libs/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj: ../libs/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj: ../src/bullets/bullets.h
+CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj: ../src/functions.h
 CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj: ../src/main.cpp
 

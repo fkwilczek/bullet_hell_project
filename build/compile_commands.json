@@ -1,22 +1,22 @@
 [
 {
   "directory": "F:/pliki/moje programy 2/c++/bullet_hell_project/build",
-  "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles\\Release_bullet_hell_project_0.1.0.dir\\src\\bullets\\basic_bullet.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\bullets\\basic_bullet.cpp\"",
+  "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/bullet_hell_project_0.1.0.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\bullet_hell_project_0.1.0.dir\\src\\bullets\\basic_bullet.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\bullets\\basic_bullet.cpp\"",
   "file": "F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/basic_bullet.cpp"
 },
 {
   "directory": "F:/pliki/moje programy 2/c++/bullet_hell_project/build",
-  "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles\\Release_bullet_hell_project_0.1.0.dir\\src\\bullets\\bullets.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\bullets\\bullets.cpp\"",
+  "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/bullet_hell_project_0.1.0.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\bullet_hell_project_0.1.0.dir\\src\\bullets\\bullets.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\bullets\\bullets.cpp\"",
   "file": "F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/bullets.cpp"
 },
 {
   "directory": "F:/pliki/moje programy 2/c++/bullet_hell_project/build",
-  "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles\\Release_bullet_hell_project_0.1.0.dir\\src\\bullets\\create_bullets.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\bullets\\create_bullets.cpp\"",
+  "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/bullet_hell_project_0.1.0.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\bullet_hell_project_0.1.0.dir\\src\\bullets\\create_bullets.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\bullets\\create_bullets.cpp\"",
   "file": "F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/create_bullets.cpp"
 },
 {
   "directory": "F:/pliki/moje programy 2/c++/bullet_hell_project/build",
-  "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles\\Release_bullet_hell_project_0.1.0.dir\\src\\main.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\main.cpp\"",
+  "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/bullet_hell_project_0.1.0.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\bullet_hell_project_0.1.0.dir\\src\\main.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\main.cpp\"",
   "file": "F:/pliki/moje programy 2/c++/bullet_hell_project/src/main.cpp"
 }
 ]

@@ -1,20 +1,20 @@
 #include "bullets.h"
-bool bullet::czy_znika(){
+bool bullet::is_disappearing(){
     return (x-size>border_x2||y-size>border_y2||x+size<border_x||y+size<border_y);
 }
-void bullet::petla(){
-    rysuj();
+void bullet::loop(){
+    draw();
 }
-void bullet::rysuj(){
+void bullet::draw(){
     window.draw(pp);
 }
 void bullets_loop(){
-    for (std::list<bullet*>::iterator pociskii = bullets.begin(); pociskii != bullets.end(); pociskii++){
-        (*pociskii)->petla();
-        (*pociskii)->ruch();
-        if((*pociskii)->czy_znika()){
-            delete *pociskii;
-            bullets.erase(pociskii--);
+    for (std::list<bullet*>::iterator bullet_iterator = bullets.begin(); bullet_iterator != bullets.end(); bullet_iterator++){
+        (*bullet_iterator)->loop();
+        (*bullet_iterator)->move();
+        if((*bullet_iterator)->is_disappearing()){
+            delete *bullet_iterator;
+            bullets.erase(bullet_iterator--);
         }
     }
 }

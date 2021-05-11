@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = "F:\pliki\moje programy 2\c++\bullet_hell_project\build"
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	F:\programy\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -76,6 +65,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	F:\programy\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Release_bullet_hell_project_0.1.0
+# Target rules for targets named bullet_hell_project_0.1.0
 
 # Build rule for target.
-Release_bullet_hell_project_0.1.0: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Release_bullet_hell_project_0.1.0
-.PHONY : Release_bullet_hell_project_0.1.0
+bullet_hell_project_0.1.0: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 bullet_hell_project_0.1.0
+.PHONY : bullet_hell_project_0.1.0
 
 # fast build rule for target.
-Release_bullet_hell_project_0.1.0/fast:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/build
-.PHONY : Release_bullet_hell_project_0.1.0/fast
+bullet_hell_project_0.1.0/fast:
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/build
+.PHONY : bullet_hell_project_0.1.0/fast
 
 src/bullets/basic_bullet.obj: src/bullets/basic_bullet.cpp.obj
 
@@ -128,7 +128,7 @@ src/bullets/basic_bullet.obj: src/bullets/basic_bullet.cpp.obj
 
 # target to build an object file
 src/bullets/basic_bullet.cpp.obj:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.obj
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.obj
 .PHONY : src/bullets/basic_bullet.cpp.obj
 
 src/bullets/basic_bullet.i: src/bullets/basic_bullet.cpp.i
@@ -137,7 +137,7 @@ src/bullets/basic_bullet.i: src/bullets/basic_bullet.cpp.i
 
 # target to preprocess a source file
 src/bullets/basic_bullet.cpp.i:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.i
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.i
 .PHONY : src/bullets/basic_bullet.cpp.i
 
 src/bullets/basic_bullet.s: src/bullets/basic_bullet.cpp.s
@@ -146,7 +146,7 @@ src/bullets/basic_bullet.s: src/bullets/basic_bullet.cpp.s
 
 # target to generate assembly for a file
 src/bullets/basic_bullet.cpp.s:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.s
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.s
 .PHONY : src/bullets/basic_bullet.cpp.s
 
 src/bullets/bullets.obj: src/bullets/bullets.cpp.obj
@@ -155,7 +155,7 @@ src/bullets/bullets.obj: src/bullets/bullets.cpp.obj
 
 # target to build an object file
 src/bullets/bullets.cpp.obj:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.obj
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.obj
 .PHONY : src/bullets/bullets.cpp.obj
 
 src/bullets/bullets.i: src/bullets/bullets.cpp.i
@@ -164,7 +164,7 @@ src/bullets/bullets.i: src/bullets/bullets.cpp.i
 
 # target to preprocess a source file
 src/bullets/bullets.cpp.i:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.i
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.i
 .PHONY : src/bullets/bullets.cpp.i
 
 src/bullets/bullets.s: src/bullets/bullets.cpp.s
@@ -173,7 +173,7 @@ src/bullets/bullets.s: src/bullets/bullets.cpp.s
 
 # target to generate assembly for a file
 src/bullets/bullets.cpp.s:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.s
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.s
 .PHONY : src/bullets/bullets.cpp.s
 
 src/bullets/create_bullets.obj: src/bullets/create_bullets.cpp.obj
@@ -182,7 +182,7 @@ src/bullets/create_bullets.obj: src/bullets/create_bullets.cpp.obj
 
 # target to build an object file
 src/bullets/create_bullets.cpp.obj:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.obj
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.obj
 .PHONY : src/bullets/create_bullets.cpp.obj
 
 src/bullets/create_bullets.i: src/bullets/create_bullets.cpp.i
@@ -191,7 +191,7 @@ src/bullets/create_bullets.i: src/bullets/create_bullets.cpp.i
 
 # target to preprocess a source file
 src/bullets/create_bullets.cpp.i:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.i
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.i
 .PHONY : src/bullets/create_bullets.cpp.i
 
 src/bullets/create_bullets.s: src/bullets/create_bullets.cpp.s
@@ -200,7 +200,7 @@ src/bullets/create_bullets.s: src/bullets/create_bullets.cpp.s
 
 # target to generate assembly for a file
 src/bullets/create_bullets.cpp.s:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.s
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.s
 .PHONY : src/bullets/create_bullets.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -209,7 +209,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.obj
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -218,7 +218,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -227,7 +227,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir\build.make CMakeFiles/Release_bullet_hell_project_0.1.0.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -236,9 +236,9 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... rebuild_cache
-	@echo ... Release_bullet_hell_project_0.1.0
+	@echo ... bullet_hell_project_0.1.0
 	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... src/bullets/basic_bullet.obj
 	@echo ... src/bullets/basic_bullet.i
 	@echo ... src/bullets/basic_bullet.s

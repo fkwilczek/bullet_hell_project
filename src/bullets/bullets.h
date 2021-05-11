@@ -9,11 +9,11 @@ class bullet{
 protected:
     float speed,size,x,y;
     sf::CircleShape pp;
-    virtual void rysuj();
+    virtual void draw();
 public:
-    virtual void ruch()=0;
-    virtual bool czy_znika();
-    virtual void petla();
+    virtual void move()=0;
+    virtual bool is_disappearing();
+    virtual void loop();
 };
 
 class basic_bullet: public bullet{
@@ -21,9 +21,9 @@ protected:
     float angle,acceleration_x,acceleration_y;
 public:
     basic_bullet(float=0,float=0,float=0,float=1,float=1);
-    virtual void ruch();
+    virtual void move();
 };
 
 extern std::list<bullet*> bullets;
-void create_basic_bullet(float,float,float,float,float);
+void create_basic_bullet(float x,float y,float angle,float speed,float size);
 void bullets_loop();

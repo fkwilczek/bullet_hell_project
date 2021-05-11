@@ -13,7 +13,7 @@ basic_bullet::basic_bullet(float x,float y,float angle,float speed,float size){
     acceleration_y=cos(angle*0.0174533)*sqrt(speed);
 }
 
-void basic_bullet::ruch(){
+void basic_bullet::move(){
     x+=acceleration_x;
     y+=acceleration_y;
     pp.setPosition(x,y);
