@@ -1,0 +1,22 @@
+[
+{
+  "directory": "F:/pliki/moje programy 2/c++/bullet_hell_project/build",
+  "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles\\Release_bullet_hell_project_0.1.0.dir\\src\\main.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\main.cpp\"",
+  "file": "F:/pliki/moje programy 2/c++/bullet_hell_project/src/main.cpp"
+},
+{
+  "directory": "F:/pliki/moje programy 2/c++/bullet_hell_project/build",
+  "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles\\Release_bullet_hell_project_0.1.0.dir\\src\\pociski\\pocisk.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\pociski\\pocisk.cpp\"",
+  "file": "F:/pliki/moje programy 2/c++/bullet_hell_project/src/pociski/pocisk.cpp"
+},
+{
+  "directory": "F:/pliki/moje programy 2/c++/bullet_hell_project/build",
+  "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles\\Release_bullet_hell_project_0.1.0.dir\\src\\pociski\\pocisk_prosty.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\pociski\\pocisk_prosty.cpp\"",
+  "file": "F:/pliki/moje programy 2/c++/bullet_hell_project/src/pociski/pocisk_prosty.cpp"
+},
+{
+  "directory": "F:/pliki/moje programy 2/c++/bullet_hell_project/build",
+  "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/Release_bullet_hell_project_0.1.0.dir/includes_CXX.rsp -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles\\Release_bullet_hell_project_0.1.0.dir\\src\\pociski\\tworzenie_pociskow.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\pociski\\tworzenie_pociskow.cpp\"",
+  "file": "F:/pliki/moje programy 2/c++/bullet_hell_project/src/pociski/tworzenie_pociskow.cpp"
+}
+]
