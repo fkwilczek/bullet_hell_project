@@ -23,7 +23,7 @@ int main()
                     window.close();
                     break;
         }}
-        for(int i=0;i<2;i++)
+        for(int i=0;i<10;i++)
             stwoz_pocisk_prosty(window.getSize().x/2,window.getSize().x/2,(rand()*361/RAND_MAX),rand()%10+1,5);
         petla_pociskow();
         window.display();

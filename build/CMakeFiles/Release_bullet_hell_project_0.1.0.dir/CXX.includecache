@@ -692,14 +692,6 @@ list
 pociski/pociski.h
 F:/pliki/moje programy 2/c++/bullet_hell_project/src/pociski/pociski.h
 
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/pociski/pocisk.cpp
-pociski.h
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/pociski/pociski.h
-
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/pociski/pocisk_prosty.cpp
-pociski.h
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/pociski/pociski.h
-
 F:/pliki/moje programy 2/c++/bullet_hell_project/src/pociski/pociski.h
 list
 -
@@ -709,8 +701,4 @@ SFML/Graphics.hpp
 -
 iostream
 -
-
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/pociski/tworzenie_pociskow.cpp
-pociski.h
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/pociski/pociski.h
 
