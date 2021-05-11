@@ -1,21 +1,21 @@
 #include "bullets.h"
 
-pocisk_prosty::pocisk_prosty(float xx,float yy,float katt,float szybkoscc,float srednicaa){
-    szybkosc=szybkoscc;
-    x=xx;
-    y=yy;
-    kat=katt;
-    srednica=srednicaa;
-    pp.setRadius(srednicaa);
+basic_bullet::basic_bullet(float x,float y,float angle,float speed,float size){
+    this->speed=speed;
+    this->x=x;
+    this->y=y;
+    this->angle=angle;
+    this->size=size;
+    pp.setRadius(size);
     pp.setFillColor(sf::Color::Red);
     pp.setPosition(x,y);
-    akceleracja_x=sin(kat*0.0174533)*sqrt(szybkosc);
-    akceleracja_y=cos(kat*0.0174533)*sqrt(szybkosc);
+    acceleration_x=sin(angle*0.0174533)*sqrt(speed);
+    acceleration_y=cos(angle*0.0174533)*sqrt(speed);
 }
 
-void pocisk_prosty::ruch(){
-    x+=akceleracja_x;
-    y+=akceleracja_y;
+void basic_bullet::ruch(){
+    x+=acceleration_x;
+    y+=acceleration_y;
     pp.setPosition(x,y);
 }
 

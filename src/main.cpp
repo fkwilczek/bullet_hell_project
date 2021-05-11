@@ -24,7 +24,7 @@ int main()
                     break;
         }}
         for(int i=0;i<10;i++)
-            stwoz_pocisk_prosty(window.getSize().x/2,window.getSize().x/2,(rand()*361/RAND_MAX),rand()%10+1,5);
+            create_basic_bullet(window.getSize().x/2,window.getSize().x/2,(rand()*361/RAND_MAX),rand()%10+1,5);
         bullets_loop();
         window.display();
         window.clear();

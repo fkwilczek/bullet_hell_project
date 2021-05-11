@@ -1,6 +1,6 @@
 #include "bullets.h"
 bool bullet::czy_znika(){
-    return (x-srednica>border_x2||y-srednica>border_y2||x+srednica<border_x||y+srednica<border_y);
+    return (x-size>border_x2||y-size>border_y2||x+size<border_x||y+size<border_y);
 }
 void bullet::petla(){
     rysuj();
