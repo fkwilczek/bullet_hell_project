@@ -6,7 +6,7 @@ void bullet::loop(){
     draw();
 }
 void bullet::draw(){
-    window.draw(pp);
+    window.draw(sprite);
 }
 void bullets_loop(){
     for (std::list<bullet*>::iterator bullet_iterator = bullets.begin(); bullet_iterator != bullets.end(); bullet_iterator++){

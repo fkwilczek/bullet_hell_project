@@ -1,3 +1,0 @@
-F:\programy\bin\cmake.exe -E remove -f CMakeFiles\Release_bullet_hell_project_0.1.0.dir/objects.a
-C:\mingw-w64\x86_64-w64-mingw32\bin\ar.exe cr CMakeFiles\Release_bullet_hell_project_0.1.0.dir/objects.a @CMakeFiles\Release_bullet_hell_project_0.1.0.dir\objects1.rsp
-C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe -O3 -DNDEBUG   -static -static-libgcc -static-libstdc++ -mwindows -Wl,--whole-archive CMakeFiles\Release_bullet_hell_project_0.1.0.dir/objects.a -Wl,--no-whole-archive  -o ..\bin\Release_bullet_hell_project_0.1.0.exe -Wl,--out-implib,libRelease_bullet_hell_project_0.1.0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Release_bullet_hell_project_0.1.0.dir\linklibs.rsp

@@ -12,6 +12,9 @@ int main()
     window.setFramerateLimit(60);
     rand_init();
 
+    sf::Texture texture;
+    texture.loadFromFile("test.png");
+
     while (window.isOpen()){
         sf::Event event;
         while (window.pollEvent(event)){
@@ -20,9 +23,8 @@ int main()
                     window.close();
                     break;
         }}
-        create_basic_bullet(border_x2/2,border_y2/2,rand_float(0,360),rand_int(1,5),rand_int(1,4));
 
-
+        create_basic_bullet(border_x2/2,border_y2/2,texture,rand_float(0,359),rand_int(1,5),1);
         bullets_loop();
         window.display();
         window.clear();
