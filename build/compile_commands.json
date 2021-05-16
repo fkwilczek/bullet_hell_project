@@ -18,5 +18,15 @@
   "directory": "F:/pliki/moje programy 2/c++/bullet_hell_project/build",
   "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/bullet_hell_project_0.1.0.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\bullet_hell_project_0.1.0.dir\\src\\main.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\main.cpp\"",
   "file": "F:/pliki/moje programy 2/c++/bullet_hell_project/src/main.cpp"
+},
+{
+  "directory": "F:/pliki/moje programy 2/c++/bullet_hell_project/build",
+  "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/bullet_hell_project_0.1.0.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\bullet_hell_project_0.1.0.dir\\src\\players\\move_handler.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\players\\move_handler.cpp\"",
+  "file": "F:/pliki/moje programy 2/c++/bullet_hell_project/src/players/move_handler.cpp"
+},
+{
+  "directory": "F:/pliki/moje programy 2/c++/bullet_hell_project/build",
+  "command": "C:\\mingw-w64\\bin\\x86_64-w64-mingw32-g++.exe  -DSFML_STATIC @CMakeFiles/bullet_hell_project_0.1.0.dir/includes_CXX.rsp -g   -std=gnu++11 -o CMakeFiles\\bullet_hell_project_0.1.0.dir\\src\\players\\player.cpp.obj -c \"F:\\pliki\\moje programy 2\\c++\\bullet_hell_project\\src\\players\\player.cpp\"",
+  "file": "F:/pliki/moje programy 2/c++/bullet_hell_project/src/players/player.cpp"
 }
 ]

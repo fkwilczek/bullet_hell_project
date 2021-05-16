@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/bullets.cpp" "F:/pliki/moje programy 2/c++/bullet_hell_project/build/CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.obj"
   "F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/create_bullets.cpp" "F:/pliki/moje programy 2/c++/bullet_hell_project/build/CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.obj"
   "F:/pliki/moje programy 2/c++/bullet_hell_project/src/main.cpp" "F:/pliki/moje programy 2/c++/bullet_hell_project/build/CMakeFiles/bullet_hell_project_0.1.0.dir/src/main.cpp.obj"
+  "F:/pliki/moje programy 2/c++/bullet_hell_project/src/players/move_handler.cpp" "F:/pliki/moje programy 2/c++/bullet_hell_project/build/CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.obj"
+  "F:/pliki/moje programy 2/c++/bullet_hell_project/src/players/player.cpp" "F:/pliki/moje programy 2/c++/bullet_hell_project/build/CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

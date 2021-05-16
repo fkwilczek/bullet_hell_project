@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.obj"
   "CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.obj"
   "CMakeFiles/bullet_hell_project_0.1.0.dir/src/main.cpp.obj"
+  "CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.obj"
+  "CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.obj"
   "libbullet_hell_project_0.1.0.dll.a"
 )
 

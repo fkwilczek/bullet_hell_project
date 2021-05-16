@@ -230,6 +230,60 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/players/move_handler.obj: src/players/move_handler.cpp.obj
+
+.PHONY : src/players/move_handler.obj
+
+# target to build an object file
+src/players/move_handler.cpp.obj:
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.obj
+.PHONY : src/players/move_handler.cpp.obj
+
+src/players/move_handler.i: src/players/move_handler.cpp.i
+
+.PHONY : src/players/move_handler.i
+
+# target to preprocess a source file
+src/players/move_handler.cpp.i:
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.i
+.PHONY : src/players/move_handler.cpp.i
+
+src/players/move_handler.s: src/players/move_handler.cpp.s
+
+.PHONY : src/players/move_handler.s
+
+# target to generate assembly for a file
+src/players/move_handler.cpp.s:
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.s
+.PHONY : src/players/move_handler.cpp.s
+
+src/players/player.obj: src/players/player.cpp.obj
+
+.PHONY : src/players/player.obj
+
+# target to build an object file
+src/players/player.cpp.obj:
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.obj
+.PHONY : src/players/player.cpp.obj
+
+src/players/player.i: src/players/player.cpp.i
+
+.PHONY : src/players/player.i
+
+# target to preprocess a source file
+src/players/player.cpp.i:
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.i
+.PHONY : src/players/player.cpp.i
+
+src/players/player.s: src/players/player.cpp.s
+
+.PHONY : src/players/player.s
+
+# target to generate assembly for a file
+src/players/player.cpp.s:
+	$(MAKE) -f CMakeFiles\bullet_hell_project_0.1.0.dir\build.make CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.s
+.PHONY : src/players/player.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -251,6 +305,12 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/players/move_handler.obj
+	@echo ... src/players/move_handler.i
+	@echo ... src/players/move_handler.s
+	@echo ... src/players/player.obj
+	@echo ... src/players/player.i
+	@echo ... src/players/player.s
 .PHONY : help
 
 

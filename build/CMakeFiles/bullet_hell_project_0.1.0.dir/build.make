@@ -112,12 +112,42 @@ CMakeFiles/bullet_hell_project_0.1.0.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bullet_hell_project_0.1.0.dir/src/main.cpp.s"
 	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\pliki\moje programy 2\c++\bullet_hell_project\src\main.cpp" -o CMakeFiles\bullet_hell_project_0.1.0.dir\src\main.cpp.s
 
+CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.obj: CMakeFiles/bullet_hell_project_0.1.0.dir/flags.make
+CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.obj: CMakeFiles/bullet_hell_project_0.1.0.dir/includes_CXX.rsp
+CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.obj: ../src/players/move_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.obj"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\bullet_hell_project_0.1.0.dir\src\players\move_handler.cpp.obj -c "F:\pliki\moje programy 2\c++\bullet_hell_project\src\players\move_handler.cpp"
+
+CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.i"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\pliki\moje programy 2\c++\bullet_hell_project\src\players\move_handler.cpp" > CMakeFiles\bullet_hell_project_0.1.0.dir\src\players\move_handler.cpp.i
+
+CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.s"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\pliki\moje programy 2\c++\bullet_hell_project\src\players\move_handler.cpp" -o CMakeFiles\bullet_hell_project_0.1.0.dir\src\players\move_handler.cpp.s
+
+CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.obj: CMakeFiles/bullet_hell_project_0.1.0.dir/flags.make
+CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.obj: CMakeFiles/bullet_hell_project_0.1.0.dir/includes_CXX.rsp
+CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.obj: ../src/players/player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.obj"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\bullet_hell_project_0.1.0.dir\src\players\player.cpp.obj -c "F:\pliki\moje programy 2\c++\bullet_hell_project\src\players\player.cpp"
+
+CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.i"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\pliki\moje programy 2\c++\bullet_hell_project\src\players\player.cpp" > CMakeFiles\bullet_hell_project_0.1.0.dir\src\players\player.cpp.i
+
+CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.s"
+	C:\mingw-w64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\pliki\moje programy 2\c++\bullet_hell_project\src\players\player.cpp" -o CMakeFiles\bullet_hell_project_0.1.0.dir\src\players\player.cpp.s
+
 # Object files for target bullet_hell_project_0.1.0
 bullet_hell_project_0_1_0_OBJECTS = \
 "CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/basic_bullet.cpp.obj" \
 "CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.obj" \
 "CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.obj" \
-"CMakeFiles/bullet_hell_project_0.1.0.dir/src/main.cpp.obj"
+"CMakeFiles/bullet_hell_project_0.1.0.dir/src/main.cpp.obj" \
+"CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.obj" \
+"CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.obj"
 
 # External object files for target bullet_hell_project_0.1.0
 bullet_hell_project_0_1_0_EXTERNAL_OBJECTS =
@@ -126,6 +156,8 @@ bullet_hell_project_0_1_0_EXTERNAL_OBJECTS =
 ../bin/bullet_hell_project_0.1.0.exe: CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/bullets.cpp.obj
 ../bin/bullet_hell_project_0.1.0.exe: CMakeFiles/bullet_hell_project_0.1.0.dir/src/bullets/create_bullets.cpp.obj
 ../bin/bullet_hell_project_0.1.0.exe: CMakeFiles/bullet_hell_project_0.1.0.dir/src/main.cpp.obj
+../bin/bullet_hell_project_0.1.0.exe: CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/move_handler.cpp.obj
+../bin/bullet_hell_project_0.1.0.exe: CMakeFiles/bullet_hell_project_0.1.0.dir/src/players/player.cpp.obj
 ../bin/bullet_hell_project_0.1.0.exe: CMakeFiles/bullet_hell_project_0.1.0.dir/build.make
 ../bin/bullet_hell_project_0.1.0.exe: ../libs/SFML-2.5.1/lib/libsfml-system-s-d.a
 ../bin/bullet_hell_project_0.1.0.exe: ../libs/SFML-2.5.1/lib/libsfml-window-s-d.a
@@ -144,7 +176,7 @@ bullet_hell_project_0_1_0_EXTERNAL_OBJECTS =
 ../bin/bullet_hell_project_0.1.0.exe: CMakeFiles/bullet_hell_project_0.1.0.dir/linklibs.rsp
 ../bin/bullet_hell_project_0.1.0.exe: CMakeFiles/bullet_hell_project_0.1.0.dir/objects1.rsp
 ../bin/bullet_hell_project_0.1.0.exe: CMakeFiles/bullet_hell_project_0.1.0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ..\bin\bullet_hell_project_0.1.0.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="F:\pliki\moje programy 2\c++\bullet_hell_project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ..\bin\bullet_hell_project_0.1.0.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\bullet_hell_project_0.1.0.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

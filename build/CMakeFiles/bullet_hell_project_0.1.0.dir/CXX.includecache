@@ -676,43 +676,13 @@ SFML/Config.hpp
 
 ../libs/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
 
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/basic_bullet.cpp
-bullets.h
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/bullets.h
-iostream
--
+F:/pliki/moje programy 2/c++/bullet_hell_project/src/players/move_handler.cpp
+players.h
+F:/pliki/moje programy 2/c++/bullet_hell_project/src/players/players.h
 
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/bullets.cpp
-bullets.h
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/bullets.h
-
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/bullets.h
-list
--
-math.h
--
+F:/pliki/moje programy 2/c++/bullet_hell_project/src/players/players.h
 SFML/Graphics.hpp
 -
-iostream
+vector
 -
-
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/create_bullets.cpp
-bullets.h
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/bullets.h
-
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/functions.h
-cstdlib
--
-time.h
--
-
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/main.cpp
-SFML/Graphics.hpp
--
-list
--
-bullets/bullets.h
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/bullets/bullets.h
-functions.h
-F:/pliki/moje programy 2/c++/bullet_hell_project/src/functions.h
 
