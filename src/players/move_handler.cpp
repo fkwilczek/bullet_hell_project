@@ -8,7 +8,7 @@ move_keyboard_handler::move_keyboard_handler(sf::Keyboard::Key up,sf::Keyboard::
 }
 sf::Vector2f move_keyboard_handler::get_vector(){
     bool is_up=sf::Keyboard::isKeyPressed(up),is_down=sf::Keyboard::isKeyPressed(down),is_left=sf::Keyboard::isKeyPressed(left),is_right=sf::Keyboard::isKeyPressed(right);
-    //pls make this code better
+    //pls fix this code
     if(first_x==0){
         if(is_right){
             acceleration_x=1;
