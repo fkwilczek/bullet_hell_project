@@ -1,2 +1,2 @@
-# bullet_hell_project
-prototype to create simple bullet hell
+# Project moved to gitlab
+  https://gitlab.com/fkwilczek/bullet_hell_project
